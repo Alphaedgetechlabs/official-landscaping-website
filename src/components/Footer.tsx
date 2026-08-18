@@ -113,7 +113,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div>
               <div className="flex items-center mb-4">
-                <Logo size={26} inverted />
+                <Logo size={20} inverted />
               </div>
               <p className="text-primary-foreground/80 text-sm">
                 Australia's leading platform for connecting homeowners with trusted landscaping contractors. 
