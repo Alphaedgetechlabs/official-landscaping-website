@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Menu, X, Phone, Quote } from "lucide-react";
-import logoImage from "@/assets/quotemyfence-logo-new.webp";
+import Logo from "@/components/Logo";
 interface HeaderProps {
   onQuoteClick: () => void;
 }
