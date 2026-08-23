@@ -5,10 +5,12 @@ interface LogoProps {
   size?: number;
   /** Use light colors for dark backgrounds */
   inverted?: boolean;
+  /** Whether to render the arrow asset (default true) */
+  showArrow?: boolean;
   className?: string;
 }
 
-const Logo = ({ size = 30, inverted = false, className }: LogoProps) => (
+const Logo = ({ size = 30, inverted = false, showArrow = true, className }: LogoProps) => (
   <span
     className={`inline-flex items-center leading-none ${className ?? ""}`}
     style={{
