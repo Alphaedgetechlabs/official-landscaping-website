@@ -34,12 +34,14 @@ const Logo = ({ size = 30, inverted = false, showArrow = true, className }: Logo
         Landscaping
       </span>
     </span>
-    <img
-      src={arrowImage}
-      alt=""
-      aria-hidden="true"
-      className="ml-[0.5cm] h-[1.08em] w-auto"
-    />
+    {showArrow && (
+      <img
+        src={arrowImage}
+        alt=""
+        aria-hidden="true"
+        className="ml-[0.5cm] h-[1.08em] w-auto"
+      />
+    )}
   </span>
 );
 
